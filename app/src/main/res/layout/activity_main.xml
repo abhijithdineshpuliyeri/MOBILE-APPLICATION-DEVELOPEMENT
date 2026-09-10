@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@android:drawable/ic_menu_agenda"
+            android:contentDescription="Library Logo"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SmartLibrary"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A simple digital library application"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to SmartLibrary. Browse books, check library rules and contact the library easily."
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/booksButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Books"
+            android:layout_marginTop="35dp" />
+
+        <Button
+            android:id="@+id/rulesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Library Rules"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/contactButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Library"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+</ScrollView>
