@@ -1,0 +1,152 @@
+📱 Adaptive Android Application – ListView & ImageView
+
+A simple Adaptive Android Application developed using Kotlin that demonstrates the use of ListView and ImageView to display a list of students with their profile images and course information.
+
+📌 Project Overview
+
+This application was developed as part of the Mobile Application Development lab. It demonstrates how to create a dynamic student list using Android's ListView and display images using ImageView.
+
+The user can view multiple student details in a scrollable list and tap on a student to receive a selection message.
+
+✨ Features
+📋 Student list using ListView
+🖼️ Student images using ImageView
+👤 Displays student name
+🎓 Displays course information
+👆 Clickable list items
+🔔 Toast message when a student is selected
+📱 Adaptive layout for different Android screen sizes
+🗂️ Images stored in the drawable resource folder
+💻 UI created programmatically using Kotlin
+🛠️ Technologies Used
+Language: Kotlin
+IDE: Android Studio
+Platform: Android
+Minimum SDK: 24
+Target SDK: 37
+UI Components: ListView, ImageView, TextView, LinearLayout
+Build System: Gradle
+Version Control: Git & GitHub
+📂 Project Structure
+adaptiveandroidapplicatiolistviewandimageview/
+│
+├── app/
+│   └── src/
+│       └── main/
+│           ├── java/
+│           │   └── com/example/
+│           │       └── adaptiveandroidapplicatiolistviewandimageview/
+│           │           ├── MainActivity.kt
+│           │           ├── Student.kt
+│           │           └── StudentAdapter.kt
+│           │
+│           ├── res/
+│           │   └── drawable/
+│           │       ├── student1.jpg
+│           │       ├── student2.jpg
+│           │       ├── student3.jpg
+│           │       └── student4.jpg
+│           │
+│           └── AndroidManifest.xml
+│
+├── build.gradle.kts
+├── settings.gradle.kts
+└── README.md
+🧩 Main Components
+1. MainActivity
+
+MainActivity.kt is responsible for:
+
+Creating the main application interface
+Creating the ListView
+Creating the student data
+Connecting the StudentAdapter
+Handling student item clicks
+2. Student Data Class
+
+Student.kt stores the information of each student:
+
+data class Student(
+    val name: String,
+    val course: String,
+    val imageName: String
+)
+3. StudentAdapter
+
+StudentAdapter.kt connects the student data with the ListView.
+
+It displays:
+
+Student image
+Student name
+Student course
+
+The adapter dynamically loads images from the drawable folder.
+
+🖼️ Image Resources
+
+Student images are stored inside:
+
+app/src/main/res/drawable/
+
+Example:
+
+student1.jpg
+student2.jpg
+student3.jpg
+student4.jpg
+
+The application dynamically identifies the corresponding drawable resource based on the image name.
+
+🚀 How to Run
+Clone the repository:
+git clone https://github.com/YOUR_USERNAME/adaptive-android-listview-imageview.git
+Open the project in Android Studio.
+Allow Gradle to sync.
+Connect an Android device or start an Android Emulator.
+Click Run ▶.
+The application will display the Student List.
+📱 Application Flow
+Launch Application
+       ↓
+   Student List
+       ↓
+ ┌───────────────┐
+ │ Student Image │
+ │ Student Name  │
+ │ Course        │
+ └───────────────┘
+       ↓
+  Click Student
+       ↓
+ Toast Message
+🎯 Learning Objectives
+
+Through this project, the following concepts were implemented:
+
+Android Activity
+Kotlin programming
+ListView
+ImageView
+Custom ListView Adapter
+Dynamic resource loading
+Event handling
+Toast messages
+Android drawable resources
+Adaptive UI design
+🔮 Future Enhancements
+
+The application can be extended with:
+
+Student details page
+Search functionality
+Multiple courses
+Add/delete student functionality
+Firebase database integration
+Material Design UI
+RecyclerView implementation
+Student profile screen
+👨‍💻 Author
+
+Abhijith P
+MCA Student
