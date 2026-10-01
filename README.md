@@ -28,9 +28,9 @@ A clean, modern, and secure Android application demonstrating **SQLite Key-Value
 
 ## 📱 Screenshots & UI Architecture
 
-| Account Login Screen | Home Dashboard Screen |
-| :---: | :---: |
-| Account Login with Auto-Fill restore badge & Outlined TextInputs | Dashboard displaying active session status & Logout button |
+![Uploading WhatsApp Image 2026-10-01 at 12.43.54 PM.jpeg…]()
+
+<img width="716" height="1600" alt="WhatsApp Image 2026-10-01 at 12 43 45 PM" src="https://github.com/user-attachments/assets/5475f68b-0d8a-4f6a-aa80-8a39165a415a" />
 
 ---
 
