@@ -28,7 +28,8 @@ A clean, modern, and secure Android application demonstrating **SQLite Key-Value
 
 ## 📱 Screenshots & UI Architecture
 
-![Uploading WhatsApp Image 2026-10-01 at 12.43.54 PM.jpeg…]()
+<img width="716" height="1600" alt="WhatsApp Image 2026-10-01 at 12 43 54 PM" src="https://github.com/user-attachments/assets/f622a715-6494-4ab1-b3ff-1aceffc89037" />
+
 
 <img width="716" height="1600" alt="WhatsApp Image 2026-10-01 at 12 43 45 PM" src="https://github.com/user-attachments/assets/5475f68b-0d8a-4f6a-aa80-8a39165a415a" />
 
