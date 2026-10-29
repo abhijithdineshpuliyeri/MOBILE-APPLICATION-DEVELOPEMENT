@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.testapp.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_mainContentFragment"
+            app:destination="@id/mainContentFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_loginFragment_to_enrollmentFragment"
+            app:destination="@id/enrollmentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/enrollmentFragment"
+        android:name="com.example.testapp.EnrollmentFragment"
+        android:label="Course Enrollment"
+        tools:layout="@layout/fragment_enrollment" />
+
+    <fragment
+        android:id="@+id/mainContentFragment"
+        android:name="com.example.testapp.MainContentFragment"
+        android:label="Courses"
+        tools:layout="@layout/fragment_main_content">
+        <action
+            android:id="@+id/action_mainContentFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_mainContentFragment_to_instructorsFragment"
+            app:destination="@id/instructorsFragment" />
+        <action
+            android:id="@+id/action_mainContentFragment_to_webViewFragment"
+            app:destination="@id/webViewFragment" />
+        <action
+            android:id="@+id/action_mainContentFragment_to_loginHistoryFragment"
+            app:destination="@id/loginHistoryFragment" />
+        <action
+            android:id="@+id/action_mainContentFragment_to_contactsFragment"
+            app:destination="@id/contactsFragment" />
+        <action
+            android:id="@+id/action_mainContentFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/instructorsFragment"
+        android:name="com.example.testapp.InstructorsFragment"
+        android:label="Faculty Directory"
+        tools:layout="@layout/fragment_instructors" />
+
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="com.example.testapp.WebViewFragment"
+        android:label="Portfolio"
+        tools:layout="@layout/fragment_webview" />
+
+    <fragment
+        android:id="@+id/loginHistoryFragment"
+        android:name="com.example.testapp.LoginHistoryFragment"
+        android:label="Login History"
+        tools:layout="@layout/fragment_login_history" />
+
+    <fragment
+        android:id="@+id/contactsFragment"
+        android:name="com.example.testapp.ContactsFragment"
+        android:label="Device Contacts"
+        tools:layout="@layout/fragment_contacts" />
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.testapp.MapFragment"
+        android:label="Locate Me"
+        tools:layout="@layout/fragment_map" />
+
+</navigation>
