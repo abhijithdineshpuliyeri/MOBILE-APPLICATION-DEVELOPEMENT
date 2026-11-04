@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="user_name">ROHAN RAM</string>
+    <string name="user_id">25MCAR0114</string>
+    <string name="courses_heading">Courses</string>
+    <string name="footer_text">ROHAN RAM | 25MCAR0114</string>
+    <string name="login_title">Welcome Back</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="login_error">Invalid username or password</string>
+    <string name="welcome_hello">Hello,</string>
+    <string name="available_courses">Available Courses</string>
+    <string name="login_success_toast">Logged In Successfully</string>
+    <string name="notification_title">Login</string>
+    <string name="notification_text">Logged In</string>
+    <string name="enroll_title">Course Enrollment</string>
+    <string name="enroll_button_main">Course Enrollment</string>
+    <string name="enroll_name_hint">Student Full Name</string>
+    <string name="enroll_usn_hint">Student ID / USN</string>
+    <string name="enroll_program_label">Select Program:</string>
+    <string name="enroll_mca">MCA</string>
+    <string name="enroll_bca">BCA</string>
+    <string name="enroll_terms">I agree to course policies and academic integrity.</string>
+    <string name="enroll_submit">Confirm Enrollment</string>
+    <string name="faculty_title">Faculty Directory</string>
+    <string name="view_faculty">View Instructors</string>
+    <string name="view_portfolio">View Portfolio</string>
+    <string name="portfolio_title">Portfolio</string>
+    <string name="nav_gallery">Gallery</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_web">Web</string>
+    <string name="gallery_title">Campus Gallery</string>
+    <string name="preference_file_key">preference_file_key\n</string>
+    <string name="saved_username_key">saved_username_key</string>
+</resources>
